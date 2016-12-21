@@ -1,0 +1,30 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.techpalle.fragmentexp9.FragOne">
+
+    <!-- TODO: Update blank fragment layout -->
+    <EditText
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:hint="enter emp no:"
+      android:id="@+id/edittext1"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="enter emp name:"
+        android:id="@+id/edittext2"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="enter emp sal:"
+        android:id="@+id/edittext3"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="add"
+        android:id="@+id/button1"/>
+
+</LinearLayout>
